@@ -4,7 +4,7 @@ from fla.layers import (ABCAttention, Attention, BasedLinearAttention,
                         BitAttention, DeltaNet, GatedLinearAttention,
                         GatedSlotAttention, HGRN2Attention, HGRNAttention,
                         LinearAttention, MultiScaleRetention,
-                        ReBasedLinearAttention)
+                        ReBasedLinearAttention, AgentAttention)
 from fla.models import (ABCForCausalLM, ABCModel, BitNetForCausalLM,
                         BitNetModel, DeltaNetForCausalLM, DeltaNetModel,
                         GLAForCausalLM, GLAModel, GSAForCausalLM, GSAModel,
@@ -26,6 +26,7 @@ __all__ = [
     'LinearAttention',
     'MultiScaleRetention',
     'ReBasedLinearAttention',
+    'AgentAttention',
     'ABCForCausalLM',
     'ABCModel',
     'BitNetForCausalLM',
