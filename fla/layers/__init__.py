@@ -13,8 +13,10 @@ from .linear_attn import LinearAttention
 from .multiscale_retention import MultiScaleRetention
 from .rebased import ReBasedLinearAttention
 from .rwkv6 import RWKV6Attention
+from .agent_attn import AgentAttention
 
 __all__ = [
+    'AgentAttention',
     'ABCAttention',
     'Attention',
     'BasedLinearAttention',
